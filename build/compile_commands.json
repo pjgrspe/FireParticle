@@ -1,9 +1,27 @@
 [
 {
   "directory": "C:/Users/pgorospe/FireParticle/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FireParticle.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FireParticle.dir\\main.cpp.obj -c C:\\Users\\pgorospe\\FireParticle\\main.cpp",
-  "file": "C:/Users/pgorospe/FireParticle/main.cpp",
-  "output": "CMakeFiles/FireParticle.dir/main.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FireParticle.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FireParticle.dir\\src\\Particle.cpp.obj -c C:\\Users\\pgorospe\\FireParticle\\src\\Particle.cpp",
+  "file": "C:/Users/pgorospe/FireParticle/src/Particle.cpp",
+  "output": "CMakeFiles/FireParticle.dir/src/Particle.cpp.obj"
+},
+{
+  "directory": "C:/Users/pgorospe/FireParticle/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FireParticle.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FireParticle.dir\\src\\Screen.cpp.obj -c C:\\Users\\pgorospe\\FireParticle\\src\\Screen.cpp",
+  "file": "C:/Users/pgorospe/FireParticle/src/Screen.cpp",
+  "output": "CMakeFiles/FireParticle.dir/src/Screen.cpp.obj"
+},
+{
+  "directory": "C:/Users/pgorospe/FireParticle/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FireParticle.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FireParticle.dir\\src\\Swarm.cpp.obj -c C:\\Users\\pgorospe\\FireParticle\\src\\Swarm.cpp",
+  "file": "C:/Users/pgorospe/FireParticle/src/Swarm.cpp",
+  "output": "CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj"
+},
+{
+  "directory": "C:/Users/pgorospe/FireParticle/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/FireParticle.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\FireParticle.dir\\src\\main.cpp.obj -c C:\\Users\\pgorospe\\FireParticle\\src\\main.cpp",
+  "file": "C:/Users/pgorospe/FireParticle/src/main.cpp",
+  "output": "CMakeFiles/FireParticle.dir/src/main.cpp.obj"
 },
 {
   "directory": "C:/Users/pgorospe/FireParticle/build/_deps/sdl2-build",

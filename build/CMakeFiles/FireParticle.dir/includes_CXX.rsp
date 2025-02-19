@@ -1,1 +1,1 @@
--I"C:/Users/pgorospe/FireParticle/build/_deps/sdl2-build/include" -isystem C:/msys64/ucrt64/include/SDL2
+-IC:/Users/pgorospe/FireParticle/src -I"C:/Users/pgorospe/FireParticle/build/_deps/sdl2-build/include" -isystem C:/msys64/ucrt64/include/SDL2

@@ -206,29 +206,101 @@ uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\sdl2-build\CMakeFiles\uninstall.dir\build.make _deps/sdl2-build/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/Particle.obj: src/Particle.cpp.obj
+.PHONY : src/Particle.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/Particle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Particle.cpp.obj
+.PHONY : src/Particle.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Particle.i: src/Particle.cpp.i
+.PHONY : src/Particle.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Particle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Particle.cpp.i
+.PHONY : src/Particle.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Particle.s: src/Particle.cpp.s
+.PHONY : src/Particle.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Particle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Particle.cpp.s
+.PHONY : src/Particle.cpp.s
+
+src/Screen.obj: src/Screen.cpp.obj
+.PHONY : src/Screen.obj
+
+# target to build an object file
+src/Screen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Screen.cpp.obj
+.PHONY : src/Screen.cpp.obj
+
+src/Screen.i: src/Screen.cpp.i
+.PHONY : src/Screen.i
+
+# target to preprocess a source file
+src/Screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Screen.cpp.i
+.PHONY : src/Screen.cpp.i
+
+src/Screen.s: src/Screen.cpp.s
+.PHONY : src/Screen.s
+
+# target to generate assembly for a file
+src/Screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Screen.cpp.s
+.PHONY : src/Screen.cpp.s
+
+src/Swarm.obj: src/Swarm.cpp.obj
+.PHONY : src/Swarm.obj
+
+# target to build an object file
+src/Swarm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj
+.PHONY : src/Swarm.cpp.obj
+
+src/Swarm.i: src/Swarm.cpp.i
+.PHONY : src/Swarm.i
+
+# target to preprocess a source file
+src/Swarm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Swarm.cpp.i
+.PHONY : src/Swarm.cpp.i
+
+src/Swarm.s: src/Swarm.cpp.s
+.PHONY : src/Swarm.s
+
+# target to generate assembly for a file
+src/Swarm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/Swarm.cpp.s
+.PHONY : src/Swarm.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FireParticle.dir\build.make CMakeFiles/FireParticle.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -245,9 +317,18 @@ help:
 	@echo ... SDL2-static
 	@echo ... SDL2_test
 	@echo ... SDL2main
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Particle.obj
+	@echo ... src/Particle.i
+	@echo ... src/Particle.s
+	@echo ... src/Screen.obj
+	@echo ... src/Screen.i
+	@echo ... src/Screen.s
+	@echo ... src/Swarm.obj
+	@echo ... src/Swarm.i
+	@echo ... src/Swarm.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

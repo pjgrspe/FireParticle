@@ -11,7 +11,7 @@ C_FLAGS =  -idirafter "C:/Users/pgorospe/FireParticle/build/_deps/sdl2-src/src/v
 
 RC_DEFINES = -DDLL_EXPORT -DUSING_GENERATED_CONFIG_H
 
-RC_INCLUDES = -I C:\msys64\ucrt64\include -I C:\msys64\ucrt64\include\SDL2 -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include\SDL2 -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include-config-debug\SDL2 -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include-config-debug
+RC_INCLUDES = -I C:\msys64\ucrt64\include -I C:\msys64\ucrt64\include\SDL2 -I C:\Users\pgorospe\FireParticle\src -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include\SDL2 -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include-config-debug\SDL2 -I C:\Users\pgorospe\FireParticle\build\_deps\sdl2-build\include-config-debug
 
 RC_FLAGS = 
 

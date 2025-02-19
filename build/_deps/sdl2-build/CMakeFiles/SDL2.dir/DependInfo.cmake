@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_RC
 set(CMAKE_RC_TARGET_INCLUDE_PATH
   "C:/msys64/ucrt64/include"
   "C:/msys64/ucrt64/include/SDL2"
+  "C:/Users/pgorospe/FireParticle/src"
   "_deps/sdl2-build/include"
   "_deps/sdl2-build/include/SDL2"
   "_deps/sdl2-build/include-config-debug/SDL2"

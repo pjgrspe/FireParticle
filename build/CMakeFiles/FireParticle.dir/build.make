@@ -71,29 +71,80 @@ include CMakeFiles/FireParticle.dir/flags.make
 CMakeFiles/FireParticle.dir/codegen:
 .PHONY : CMakeFiles/FireParticle.dir/codegen
 
-CMakeFiles/FireParticle.dir/main.cpp.obj: CMakeFiles/FireParticle.dir/flags.make
-CMakeFiles/FireParticle.dir/main.cpp.obj: CMakeFiles/FireParticle.dir/includes_CXX.rsp
-CMakeFiles/FireParticle.dir/main.cpp.obj: C:/Users/pgorospe/FireParticle/main.cpp
-CMakeFiles/FireParticle.dir/main.cpp.obj: CMakeFiles/FireParticle.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FireParticle.dir/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FireParticle.dir/main.cpp.obj -MF CMakeFiles\FireParticle.dir\main.cpp.obj.d -o CMakeFiles\FireParticle.dir\main.cpp.obj -c C:\Users\pgorospe\FireParticle\main.cpp
+CMakeFiles/FireParticle.dir/src/Particle.cpp.obj: CMakeFiles/FireParticle.dir/flags.make
+CMakeFiles/FireParticle.dir/src/Particle.cpp.obj: CMakeFiles/FireParticle.dir/includes_CXX.rsp
+CMakeFiles/FireParticle.dir/src/Particle.cpp.obj: C:/Users/pgorospe/FireParticle/src/Particle.cpp
+CMakeFiles/FireParticle.dir/src/Particle.cpp.obj: CMakeFiles/FireParticle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FireParticle.dir/src/Particle.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FireParticle.dir/src/Particle.cpp.obj -MF CMakeFiles\FireParticle.dir\src\Particle.cpp.obj.d -o CMakeFiles\FireParticle.dir\src\Particle.cpp.obj -c C:\Users\pgorospe\FireParticle\src\Particle.cpp
 
-CMakeFiles/FireParticle.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FireParticle.dir/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pgorospe\FireParticle\main.cpp > CMakeFiles\FireParticle.dir\main.cpp.i
+CMakeFiles/FireParticle.dir/src/Particle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FireParticle.dir/src/Particle.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pgorospe\FireParticle\src\Particle.cpp > CMakeFiles\FireParticle.dir\src\Particle.cpp.i
 
-CMakeFiles/FireParticle.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FireParticle.dir/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pgorospe\FireParticle\main.cpp -o CMakeFiles\FireParticle.dir\main.cpp.s
+CMakeFiles/FireParticle.dir/src/Particle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FireParticle.dir/src/Particle.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pgorospe\FireParticle\src\Particle.cpp -o CMakeFiles\FireParticle.dir\src\Particle.cpp.s
+
+CMakeFiles/FireParticle.dir/src/Screen.cpp.obj: CMakeFiles/FireParticle.dir/flags.make
+CMakeFiles/FireParticle.dir/src/Screen.cpp.obj: CMakeFiles/FireParticle.dir/includes_CXX.rsp
+CMakeFiles/FireParticle.dir/src/Screen.cpp.obj: C:/Users/pgorospe/FireParticle/src/Screen.cpp
+CMakeFiles/FireParticle.dir/src/Screen.cpp.obj: CMakeFiles/FireParticle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FireParticle.dir/src/Screen.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FireParticle.dir/src/Screen.cpp.obj -MF CMakeFiles\FireParticle.dir\src\Screen.cpp.obj.d -o CMakeFiles\FireParticle.dir\src\Screen.cpp.obj -c C:\Users\pgorospe\FireParticle\src\Screen.cpp
+
+CMakeFiles/FireParticle.dir/src/Screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FireParticle.dir/src/Screen.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pgorospe\FireParticle\src\Screen.cpp > CMakeFiles\FireParticle.dir\src\Screen.cpp.i
+
+CMakeFiles/FireParticle.dir/src/Screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FireParticle.dir/src/Screen.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pgorospe\FireParticle\src\Screen.cpp -o CMakeFiles\FireParticle.dir\src\Screen.cpp.s
+
+CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj: CMakeFiles/FireParticle.dir/flags.make
+CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj: CMakeFiles/FireParticle.dir/includes_CXX.rsp
+CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj: C:/Users/pgorospe/FireParticle/src/Swarm.cpp
+CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj: CMakeFiles/FireParticle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj -MF CMakeFiles\FireParticle.dir\src\Swarm.cpp.obj.d -o CMakeFiles\FireParticle.dir\src\Swarm.cpp.obj -c C:\Users\pgorospe\FireParticle\src\Swarm.cpp
+
+CMakeFiles/FireParticle.dir/src/Swarm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FireParticle.dir/src/Swarm.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pgorospe\FireParticle\src\Swarm.cpp > CMakeFiles\FireParticle.dir\src\Swarm.cpp.i
+
+CMakeFiles/FireParticle.dir/src/Swarm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FireParticle.dir/src/Swarm.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pgorospe\FireParticle\src\Swarm.cpp -o CMakeFiles\FireParticle.dir\src\Swarm.cpp.s
+
+CMakeFiles/FireParticle.dir/src/main.cpp.obj: CMakeFiles/FireParticle.dir/flags.make
+CMakeFiles/FireParticle.dir/src/main.cpp.obj: CMakeFiles/FireParticle.dir/includes_CXX.rsp
+CMakeFiles/FireParticle.dir/src/main.cpp.obj: C:/Users/pgorospe/FireParticle/src/main.cpp
+CMakeFiles/FireParticle.dir/src/main.cpp.obj: CMakeFiles/FireParticle.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FireParticle.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FireParticle.dir/src/main.cpp.obj -MF CMakeFiles\FireParticle.dir\src\main.cpp.obj.d -o CMakeFiles\FireParticle.dir\src\main.cpp.obj -c C:\Users\pgorospe\FireParticle\src\main.cpp
+
+CMakeFiles/FireParticle.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FireParticle.dir/src/main.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pgorospe\FireParticle\src\main.cpp > CMakeFiles\FireParticle.dir\src\main.cpp.i
+
+CMakeFiles/FireParticle.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FireParticle.dir/src/main.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pgorospe\FireParticle\src\main.cpp -o CMakeFiles\FireParticle.dir\src\main.cpp.s
 
 # Object files for target FireParticle
 FireParticle_OBJECTS = \
-"CMakeFiles/FireParticle.dir/main.cpp.obj"
+"CMakeFiles/FireParticle.dir/src/Particle.cpp.obj" \
+"CMakeFiles/FireParticle.dir/src/Screen.cpp.obj" \
+"CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj" \
+"CMakeFiles/FireParticle.dir/src/main.cpp.obj"
 
 # External object files for target FireParticle
 FireParticle_EXTERNAL_OBJECTS =
 
-FireParticle.exe: CMakeFiles/FireParticle.dir/main.cpp.obj
+FireParticle.exe: CMakeFiles/FireParticle.dir/src/Particle.cpp.obj
+FireParticle.exe: CMakeFiles/FireParticle.dir/src/Screen.cpp.obj
+FireParticle.exe: CMakeFiles/FireParticle.dir/src/Swarm.cpp.obj
+FireParticle.exe: CMakeFiles/FireParticle.dir/src/main.cpp.obj
 FireParticle.exe: CMakeFiles/FireParticle.dir/build.make
 FireParticle.exe: C:/msys64/ucrt64/lib/libSDL2main.a
 FireParticle.exe: C:/msys64/ucrt64/lib/libSDL2.dll.a
@@ -101,7 +152,7 @@ FireParticle.exe: _deps/sdl2-build/libSDL2maind.a
 FireParticle.exe: CMakeFiles/FireParticle.dir/linkLibs.rsp
 FireParticle.exe: CMakeFiles/FireParticle.dir/objects1.rsp
 FireParticle.exe: CMakeFiles/FireParticle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FireParticle.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\pgorospe\FireParticle\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FireParticle.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FireParticle.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
